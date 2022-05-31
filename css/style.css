@@ -129,8 +129,368 @@ li a.active, li a:hover{
 
 
 
+/* ========================== FIN FOOTER ++++++++++++++++++++++++++++++++*/
 
 
+/* =============================== INICIO tienda ==================================*/
+
+
+.tienda {
+  background-color: #F1F2EB;
+  font-family: 'Source Code Pro', monospace;
+  width: 100%;
+  height: 100%;
+  letter-spacing: 0.03em;
+}
+
+
+
+.tienda__nav {
+  text-align: center;
+  padding-top: 1cm;
+  padding-bottom: 1cm;
+}
+
+
+
+.tienda__nav li {
+  display: inline;
+  border-style: groove;
+}
+
+
+
+.tienda__container {
+  background-color: #272727;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  width: 90%;
+  max-width: 1600px;
+  border-radius: 0.5rem;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin:auto;
+  gap: 1.5rem;
+}
+
+
+
+.tienda__container--card {
+  background-color: #F1F2EB;
+  width:20rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  text-align: center;
+}
+
+
+
+.tienda__container--card img {
+  width: 75%;
+}
+
+
+
+.tienda__container--card h2 {
+  font-weight: 600;
+  margin: 1rem;
+}
+
+
+
+.tienda__container--text {
+  padding: 0 1rem;
+  font-size: .8em;
+  font-weight: 300;
+  overflow: hidden;
+}
+
+
+
+.tienda__container--price {
+  margin-top: 5%;
+  font-weight: 400;
+  padding-bottom: 1rem;
+}
+
+
+/* ====================================== FIN tienda ====================================*/
+
+
+
+
+
+/* ============================= INICIO quienesSOMOS ============================*/
+
+.grid{
+  display: grid;
+  justify-content: center;
+  margin: 5rem;
+}
+.gridContainer{
+  width: 80vw;
+  color: #F1F2EB;
+  display: grid;
+  border-radius: 6px;
+  gap: 1rem;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+  grid-template-areas:
+  "gridItem1 gridItem2 gridItem2 gridItem2 gridItem3"
+  "gridItem1 gridItem2 gridItem2 gridItem2 gridItem3"
+  "gridItem4 gridItem4 gridItem5 gridItem6 gridItem6"
+  "gridItem4 gridItem4 gridItem7 gridItem6 gridItem6"
+  "gridItem8 gridItem9 gridItem9 gridItem9 gridItem10"
+  "gridItem8 gridItem9 gridItem9 gridItem9 gridItem10"
+;
+}
+
+.gridContainer article img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 5px
+}
+
+
+.gridContainer article{
+  display: grid;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 4px;
+  transition: transform 0.3s ease-in-out;
+
+  
+  position: relative;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+
+.gridItem1 {
+  background-color: #F1F2EB;
+  grid-area: gridItem1;
+}
+
+.gridItem2 {
+  background-color: #F1F2EB;
+  grid-area: gridItem2;
+}
+
+.gridItem3 {
+  background-color: #F1F2EB;
+  grid-area: gridItem3;
+}
+
+.gridItem4 {
+  background-color: #F1F2EB;
+  grid-area: gridItem4;
+}
+
+.gridItem5 {
+  background-color: #F1F2EB;
+  grid-area: gridItem5;
+}
+
+.gridItem6 {
+  background-color: #F1F2EB;
+  grid-area: gridItem6;
+}
+
+.gridItem7 {
+  background-color: #F1F2EB;
+  grid-area: gridItem7;
+}
+
+.gridItem8 {
+  background-color: #F1F2EB;
+  grid-area: gridItem8;
+}
+
+.gridItem9 {
+  background-color: #F1F2EB;
+  grid-area: gridItem9;
+}
+
+.gridItem10 {
+  background-color: #F1F2EB;
+  grid-area: gridItem10;
+}
+
+
+
+
+
+
+
+.grid article:hover {
+  filter: opacity(0.9);
+  transform: scale(1.04);
+}
+
+
+.grid__capa {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.2);
+  transition: all 300ms ease-out;
+  opacity: 0;
+  visibility: hidden;
+  text-align: center;
+  align-items: center;
+}
+
+.grid article:hover > .grid__capa {
+  opacity: 1;
+  visibility: visible;
+}
+
+.grid article:hover > .grid__capa h2 {
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.grid article .grid__capa h2{
+  color: #F1F2EB;
+  font-weight: 400;
+  margin-bottom: 4rem;
+  transition: all 400ms ease-out;
+  margin-top: 1rem;
+}
+.grid article .grid__capa p{
+  color: #F1F2EB;
+  font-size: 1em;
+  line-height: 1.5;
+  width: 90%;
+  max-width: auto;
+  margin: auto;}
+
+
+/* ==================================== FIN quienesSomos ===============================*/
+
+/* ===================INICIO registrate ==================================*/
+
+.registro__main {
+  font-family: 'calibri';
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.registro {
+  width: 400px;
+  background: #272727;
+  padding: 30px;
+  margin: auto;
+  margin-top: 100px;
+  border-radius: 4px;
+  color: white;
+  box-shadow: 7px 13px 37px #000;
+}
+
+.registro h4 {
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+.controls {
+  width: 100%;
+  background: #272727;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  border: 1px solid #F1F2EB;
+  font-family: 'calibri';
+  font-size: 18px;
+  color: #F1F2EB;
+  justify-content: center;
+}
+
+.registro p {
+  height: 40px;
+  text-align: center;
+  font-size: 1em;
+  line-height: 40px;
+}
+
+.registro a {
+  color: #F1F2EB;
+  text-decoration: none;
+}
+
+.registro a:hover {
+  color: #F1F2EB;
+  text-decoration: underline;
+}
+
+.registro .botons {
+  width: 100%;
+  background: #5B8E7D;
+  border: none;
+  padding: 12px;
+  color: #F1F2EB;
+  margin: 16px 0;
+  font-size: 16px;
+}
+
+
+
+/* ============================FIN registrate ============================*/
+
+/* =============================== INICIO tablaDeTalles =============================*/
+
+.title__table {
+  text-align: center;
+  font-family: 'Source Code Pro', monospace;
+}
+
+
+
+.title__table--active {
+  text-align: center;
+  font-family: 'Source Code Pro', monospace;
+  margin: 4%;
+  font-size: 40px;
+}
+
+
+
+.table {
+  background-color: #91818a;
+  font-family: 'Source Code Pro', monospace;
+  letter-spacing: 0.03em;
+  table-layout: fixed;
+  width: 70%;
+  max-width: 1000px;
+  min-width: 500px;
+  margin: auto;
+  margin-bottom: 5%;
+  border-collapse: collapse;
+  border-radius: 0.25rem;
+  border: 3px ;
+}
+
+
+
+.table td {
+  text-align: center;
+  padding: 5px;
+}
+
+
+
+.table__tr--active {
+  background-color: #f1f2eb;
+}
+
+
+/* =====================================FIN tablaDeTalles ===========================*/
 
 
 
@@ -189,5 +549,42 @@ li a.active, li a:hover{
   }
   .footer a{
     margin-bottom: 1rem;
+  }
+}
+
+
+
+
+/* medias quienesSomos */
+
+
+@media (max-width: 960px){
+  .gridContainer{
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(5, 1fr);
+      grid-template-areas:
+      "gridItem1 gridItem2"
+      "gridItem3 gridItem4"
+      "gridItem5 gridItem6"
+      "gridItem7 gridItem8"
+      "gridItem9 gridItem10"
+  }
+}
+
+@media (max-width: 650px){
+  .gridContainer{
+      grid-template-columns: 1fr;
+      grid-template-rows: 10fr;
+      grid-template-areas:
+      "gridItem1"
+      "gridItem2"
+      "gridItem3"
+      "gridItem4"
+      "gridItem5"
+      "gridItem6"
+      "gridItem7"
+      "gridItem8"
+      "gridItem9"
+      "gridItem10"
   }
 }
