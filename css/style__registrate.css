@@ -1,0 +1,62 @@
+.registro__main {
+    font-family: 'calibri';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.registro {
+    width: 400px;
+    background: #272727;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+}
+
+.registro h4 {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.controls {
+    width: 100%;
+    background: #272727;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #F1F2EB;
+    font-family: 'calibri';
+    font-size: 18px;
+    color: #F1F2EB;
+    justify-content: center;
+}
+
+.registro p {
+    height: 40px;
+    text-align: center;
+    font-size: 1em;
+    line-height: 40px;
+}
+
+.registro a {
+    color: #F1F2EB;
+    text-decoration: none;
+}
+
+.registro a:hover {
+    color: #F1F2EB;
+    text-decoration: underline;
+}
+
+.registro .botons {
+    width: 100%;
+    background: #5B8E7D;
+    border: none;
+    padding: 12px;
+    color: #F1F2EB;
+    margin: 16px 0;
+    font-size: 16px;
+}

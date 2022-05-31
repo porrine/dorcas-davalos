@@ -1,0 +1,80 @@
+.tienda {
+    background-color: #F1F2EB;
+    font-family: 'Source Code Pro', monospace;
+    width: 100%;
+    height: 100%;
+    letter-spacing: 0.03em;
+}
+
+
+
+.tienda__nav {
+    text-align: center;
+    padding-top: 1cm;
+    padding-bottom: 1cm;
+}
+
+
+
+.tienda__nav li {
+    display: inline;
+    border-style: groove;
+}
+
+
+
+.tienda__container {
+    background-color: #272727;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    width: 90%;
+    max-width: 1600px;
+    border-radius: 0.5rem;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin:auto;
+    gap: 1.5rem;
+}
+
+
+
+.tienda__container--card {
+    background-color: #F1F2EB;
+    width:20rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    text-align: center;
+}
+
+
+
+.tienda__container--card img {
+    width: 75%;
+}
+
+
+
+.tienda__container--card h2 {
+    font-weight: 600;
+    margin: 1rem;
+}
+
+
+
+.tienda__container--text {
+    padding: 0 1rem;
+    font-size: .8em;
+    font-weight: 300;
+    overflow: hidden;
+}
+
+
+
+.tienda__container--price {
+    margin-top: 5%;
+    font-weight: 400;
+    padding-bottom: 1rem;
+}
