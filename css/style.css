@@ -16,18 +16,18 @@ body  {
 
 
 
-.header {
-  background-color: #272727;
-  color: #F1F2EB;
-  font-family: 'Source Code Pro', monospace;
-  display: flex;
-  align-items: center;
-  flex-direction: row;
-  padding-left: 2rem;
-  padding-right: 2rem;
-  height: 10vh;
-  width: auto;
-}
+/* .header { */
+  /* background-color: #272727; */
+  /* color: #F1F2EB; */
+  /* font-family: 'Source Code Pro', monospace; */
+  /* display: flex; */
+  /* align-items: center; */
+  /* flex-direction: row; */
+  /* padding-left: 2rem; */
+  /* padding-right: 2rem; */
+  /* height: 10vh; */
+  /* width: auto; */
+/* } */
 .header__logo {
   padding-bottom: 1.1rem;
 }
@@ -85,6 +85,7 @@ li a.active, li a:hover{
   padding: 0.2rem;
   height:2rem;
 }
+
 
 
 
@@ -501,7 +502,7 @@ li a.active, li a:hover{
 
 /* media header */
 
-
+/* 
 @media (max-width: 960px){
   .enlace{
       padding-left: 20px;
@@ -541,7 +542,7 @@ li a.active, li a:hover{
   #check:checked ~ ul{
       left:0;}
 
-}
+} */
 
 @media (max-width: 960px){
   .footer{
