@@ -1,0 +1,26 @@
+.title__table--active {
+    text-align: center;
+    font-family: var(--font-1);
+    margin: 4%;
+    font-size: 40px;
+}
+
+
+
+.table {
+    font-family: var(--font-1);
+    letter-spacing: 0.03em;
+    table-layout: fixed;
+    width: 70%;
+    max-width: 1000px;
+    min-width: 500px;
+    margin: auto;
+    margin-bottom: 5%;
+    border-collapse: collapse;
+    border: 3px ;
+
+    td {
+        text-align: center;
+        padding: 5px;
+    }
+}

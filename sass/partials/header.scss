@@ -1,0 +1,14 @@
+header {
+    font-family: var(--font-1);
+    
+    li{
+        display: inline-block;
+        line-height: 80px;
+        margin: 0 5px;
+    }
+    
+    li a.active, li a:hover{
+        background: var(--color-3);
+        transition: .25s;
+    }
+}

@@ -1,0 +1,23 @@
+.footer {
+    display: flex;
+    background-color: #272727;
+    font-family: 'Source Code Pro', monospace;
+    height: 14vh;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+
+    &__redes--title {
+        margin-bottom: 1rem;
+    }
+    
+    li {
+        display: inline;
+    }
+
+    a {
+        color: #F1F2EB;
+    }
+}

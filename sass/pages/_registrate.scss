@@ -1,0 +1,107 @@
+.registro__main {
+    font-family: var(--font-2);
+    margin: 0;
+    padding: 0;
+}
+
+.registro {
+    width: 400px;
+    background: var(--color-2);
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    color: var(--color-1);
+    box-shadow: 7px 13px 37px #000;
+
+    h4 {
+        font-size: 22px;
+        margin-bottom: 20px;
+    }
+
+    p {  
+        height: 40px;
+        text-align: center;
+        font-size: 1em;
+        line-height: 40px;
+    }
+
+    a {
+        color: var(--color-1);
+        text-decoration: none;
+    }
+
+    a:hover{
+        color: var(--color-1);
+        text-decoration: underline;
+    } 
+
+    .controls{
+        width: 100%;
+        background: var(--color-2);
+        padding: 10px;
+        border-radius: 4px;
+        margin-bottom: 16px;
+        border: 1px solid var(--color-1);
+        font-family: var(--font-2);
+        font-size: 18px;
+        color: var(--color-1);
+        justify-content: center;
+    }    
+
+    .botons {
+        width: 100%;
+        background: var(--color-3);
+        border: none;
+        padding: 12px;
+        color: var(--color-1);
+        margin: 16px 0;
+        font-size: 16px;
+    }
+}
+
+// .registro h4 {
+//   font-size: 22px;
+//   margin-bottom: 20px;
+// }
+
+// .controls {
+//   width: 100%;
+//   background: var(--color-2);
+//   padding: 10px;
+//   border-radius: 4px;
+//   margin-bottom: 16px;
+//   border: 1px solid var(--color-1);
+//   font-family: var(--font-2);
+//   font-size: 18px;
+//   color: var(--color-1);
+//   justify-content: center;
+// }
+
+// .registro p {
+//   height: 40px;
+//   text-align: center;
+//   font-size: 1em;
+//   line-height: 40px;
+// }
+
+// .registro a {
+//   color: var(--color-1);
+//   text-decoration: none;
+// }
+
+// .registro a:hover {
+//   color: var(--color-1);
+//   text-decoration: underline;
+// }
+
+// .registro .botons {
+//   width: 100%;
+//   background: var(--color-3);
+//   border: none;
+//   padding: 12px;
+//   color: var(--color-1);
+//   margin: 16px 0;
+//   font-size: 16px;
+// }
+

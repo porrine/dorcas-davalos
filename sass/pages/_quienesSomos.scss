@@ -1,0 +1,190 @@
+.grid{
+    display: grid;
+    justify-content: center;
+    margin: var(--spacing-xl);
+
+    &Container{
+        width: 80vw;
+        color: var(--color-1);
+        display: grid;
+        border-radius: 6px;
+        gap: var(--spacing-xs);
+        grid-template-columns: repeat(5, 1fr);
+        grid-template-rows: repeat(6, 1fr);
+        grid-template-areas:
+        "gridItem1 gridItem2 gridItem2 gridItem2 gridItem3"
+        "gridItem1 gridItem2 gridItem2 gridItem2 gridItem3"
+        "gridItem4 gridItem4 gridItem5 gridItem6 gridItem6"
+        "gridItem4 gridItem4 gridItem7 gridItem6 gridItem6"
+        "gridItem8 gridItem9 gridItem9 gridItem9 gridItem10"
+        "gridItem8 gridItem9 gridItem9 gridItem9 gridItem10"
+    ;
+    }
+
+    article img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 5px;
+    }
+
+
+    article{
+        display: grid;
+        align-items: center;
+        justify-content: center;
+    
+        border-radius: 4px;
+        transition: transform 0.3s ease-in-out;
+    
+        position: relative;
+        cursor: pointer;
+        overflow: hidden;
+
+        :hover {
+            filter: opacity(0.9);
+            transform: scale(1.04);
+        }
+    }
+
+    &__capa {
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.2);
+        transition: all 300ms ease-out;
+        opacity: 0;
+        visibility: hidden;
+        text-align: center;
+        align-items: center;
+    }
+
+    article:hover > .grid__capa {
+        opacity: 1;
+        visibility: visible;
+    }
+
+    article:hover > .grid__capa h2 {
+        margin-top: var(--spacing-xs);
+        margin-bottom: 0.5rem;
+    }
+
+    article .grid__capa h2{
+        color: var(--color-1);
+        font-weight: 400;
+        margin-bottom: var(--pacing-l);
+        transition: all 400ms ease-out;
+        margin-top: 1rem;
+    }
+
+    article .grid__capa p{
+        color: var(--color-1);
+        font-size: 1em;
+        line-height: 1.5;
+        width: 90%;
+        max-width: auto;
+        margin: auto;
+    }
+}
+
+
+.gridItem1 {
+    background-color: var(--color-1);
+    grid-area: gridItem1;
+}
+
+.gridItem2 {
+    background-color: var(--color-1);
+    grid-area: gridItem2;
+}
+
+.gridItem3 {
+    background-color: var(--color-1);
+    grid-area: gridItem3;
+}
+
+.gridItem4 {
+    background-color: var(--color-1);
+    grid-area: gridItem4;
+}
+
+.gridItem5 {
+    background-color: var(--color-1);
+    grid-area: gridItem5;
+}
+
+.gridItem6 {
+    background-color: var(--color-1);
+    grid-area: gridItem6;
+}
+
+.gridItem7 {
+    background-color: var(--color-1);
+    grid-area: gridItem7;
+}
+
+.gridItem8 {
+    background-color: var(--color-1);
+    grid-area: gridItem8;
+}
+
+.gridItem9 {
+    background-color: var(--color-1);
+    grid-area: gridItem9;
+}
+
+.gridItem10 {
+    background-color: var(--color-1);
+    grid-area: gridItem10;
+}
+
+
+
+
+
+
+
+// .grid article:hover {
+//     filter: opacity(0.9);
+//     transform: scale(1.04);
+//   }
+  
+  
+//   .grid__capa {
+//     position: absolute;
+//     top: 0;
+//     width: 100%;
+//     height: 100%;
+//     background: rgba(0, 0, 0, 0.2);
+//     transition: all 300ms ease-out;
+//     opacity: 0;
+//     visibility: hidden;
+//     text-align: center;
+//     align-items: center;
+//   }
+  
+//   .grid article:hover > .grid__capa {
+//     opacity: 1;
+//     visibility: visible;
+//   }
+  
+//   .grid article:hover > .grid__capa h2 {
+//     margin-top: var(--spacing-xs);
+//     margin-bottom: 0.5rem;
+//   }
+  
+//   .grid article .grid__capa h2{
+//     color: var(--color-1);
+//     font-weight: 400;
+//     margin-bottom: var(--pacing-l);
+//     transition: all 400ms ease-out;
+//     margin-top: 1rem;
+//   }
+//   .grid article .grid__capa p{
+//     color: var(--color-1);
+//     font-size: 1em;
+//     line-height: 1.5;
+//     width: 90%;
+//     max-width: auto;
+//     margin: auto;}
